@@ -22,3 +22,20 @@ These are examples I used as inputs to OpenAI and Anthropic to show how you can 
  - Monthly robberies in Chicago chart, `MonthlyRobberiesChicago.png`, see my crimepy python library for how this was generated, <https://github.com/apwheele/crimepy/blob/main/notebooks/TimeSeriesCharts.ipynb>
  - Audio file, `WebMapAudio11sec.mp3`, first 11 seconds from this Youtube video I made, <https://www.youtube.com/watch?v=mBm6sTR08BI&t=35s>, on describing the cartographic decisions I made around an interactive hotspot map.
 
+## Chapter 5
+
+These are examples I used in Chapter 5, RAG. Documents downloaded on 12/7/2025.
+
+ - Raleigh policy documents, via <https://public.powerdms.com/RPD1/tree>
+   - 865833.pdf, Use of Force and Weapons
+   - 866145.pdf, Interacting with Vulnerable Populations
+   - 866181.pdf, Response to Trespassing Complaints
+   - 866217.pdf, Taxis and Towing
+   - 2208425.pdf, Unmannded Aerial System (UAS) Operations
+
+For the scanned document, I printing out Interacting with Vulnerable Populations (866145.pdf), and then scanned it back in to demonstrate OCR'ing the document.
+
+## Chapter 6
+
+I use example data from Dallas. You can see the script to download this data from the Dallas open data site at <https://github.com/apwheele/apwheele/blob/main/dallas_data.py>. This data was downloaded in a github action on 12/7/2025.
+
