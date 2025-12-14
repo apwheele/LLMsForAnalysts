@@ -1,0 +1,21 @@
+narrative,crime_type,location,stolen_items,cost
+Suspect broke window and entered home while family was on vacation. Took jewelry and electronics. Total one hundred dollars,burglary,indoors,"['jewelry','electronics']",100
+Victim returned from work to find front door kicked in. $40 Cash and prescription medications stolen.,burglary,indoors,"['cash','RX']",40
+"Suspect approached victim on sidewalk, displayed knife, demanded wallet. Victim complied.",robbery,outdoors,['wallet'],
+"Unknown assailant keyed card, red Honda civic",Vandalism,outdoors,,
+Suspect pointed gun at store clerk and demanded cash from register. Got $384.26,robbery,indoors,['cash'],384.26
+"Victim left phone on restaurant table. When returned from restroom, phone was gone. $200 cost",theft,indoors,['phone'],200
+Bicycle taken from unlocked garage. No signs of forced entry.,theft,indoors,['bicycle'],
+Shoplifter concealed merchandise and exited store without paying. Total $85,theft,indoors,['merchandise'],85
+Suspect punched victim in face during argument. No property taken.,assault,,,
+Victim struck with bottle at bar. Suspect fled scene.,assault,indoors,,
+Domestic dispute. Victim pushed down stairs by spouse.,assault,indoors,,
+Window smashed on parked car. Backpack stolen from back seat. Estimated 30 dolars.,theft,outdoors,,30
+Suspect broke care window. No items taken,vandalism,,,0
+Suspect grabbed phone from victim's hand while victim was texting walking on sidewalk and ran away.,robbery,outdoors,['phone'],
+Pickpocket took wallet from victim's pocket without victim noticing. $12.50 in wallet.,theft,,['wallet'],12.5
+Suspect tried to force open door but fled when alarm sounded. Nothing taken.,burglary,,,0
+XXX,,,,
+Unknown person forced open back door of residence overnight. TV and laptop missing ($600).,burglary,indoors,"['TV','laptop']",600
+"Two males grabbed victim from behind in parking lot, took purse (reciept $1624) by force.",robbery,outdoors,['purse'],1624
+"Traffic stop, warning given.",,,,
