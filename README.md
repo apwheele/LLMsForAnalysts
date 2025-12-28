@@ -51,7 +51,13 @@ These are examples I used in Chapter 5, RAG. Documents downloaded on 12/7/2025.
 
 For the scanned document, I printing out Interacting with Vulnerable Populations (866145.pdf), and then scanned it back in to demonstrate OCR'ing the document.
 
+I also use the Stata reference documentation (see url in Chapter 3), split out with the Table of Contents and the actual document.
+
 ### Chapter 6
 
-I use example data from Dallas. You can see the script to download this data from the Dallas open data site at <https://github.com/apwheele/apwheele/blob/main/dallas_data.py>. This data was downloaded in a github action on 12/7/2025.
+I use example data from Dallas. You can see the script to download this data from the Dallas open data site at <https://github.com/apwheele/apwheele/blob/main/dallas_data.py>. This data was downloaded in a github action on 12/26/2025 (last date of data on 12/24/2025).
+
+I then used the `prep_dallas_crime.py` script to slightly modify that file (to include column categories instead of the numeric labels, and strip out some data).
+
+The file `crime_mcp.py` is the mcp server script I used in the book with the Claude Desktop tool. You can see my conversation at <https://claude.ai/share/6c14cb84-cdbe-475e-91cd-acf4240f3a60> (unfortunately that does not show the artifacts).
 

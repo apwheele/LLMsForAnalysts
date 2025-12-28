@@ -1,1 +1,1 @@
-#conda create --name llm_book -c conda-forge python=3.12 gliner sentence-transformers jupyter jupyter-cache anthropic openai boto3 pypdf tiktoken google-genai chromadb docling faiss
+#conda create --name llm_book -c conda-forge python=3.12 gliner sentence-transformers jupyter jupyter-cache anthropic openai boto3 pypdf tiktoken google-genai cohere chromadb docling faiss pypdfium2
