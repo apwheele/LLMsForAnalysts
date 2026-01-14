@@ -1,0 +1,13 @@
+
+The diagram at the start of the chapter, I generated that using Nano banana (using a custom MCP server I created). Here is the initial prompt to Claude code I made
+
+create gemimg image showing two dimensional embedding vector latte and milk (top right unit square) vs traffic accident (lower middle). Cosine is angles and L2 is euclidean distance. 
+
+And here is the prompt Claude code generated to create the image
+
+Educational diagram showing a 2D coordinate system with embedding vectors. Clean minimalist style on white
+background. X and Y axes with unit scale marks. Three labeled points with vectors from origin: \"latte\" and \"milk\" as
+points close together in the upper right quadrant (around 0.8, 0.9 and 0.7, 0.85), and \"traffic accident\" as a point in the
+ lower middle area (around 0.5, 0.2). Draw dotted arc showing the angle between vectors to illustrate \"cosine similarity\".
+Draw a straight dashed line between \"milk\" and \"traffic accident\" labeled \"L2 distance\". Include small legend: \"Cosine
+ = angle between vectors\" and \"L2 = Euclidean distance\". Technical illustration style, clear labels, no decorations.
