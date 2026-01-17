@@ -1,0 +1,14 @@
+{% macro incident_card(incident) %}
+<div class="card h-100">
+    <div class="card-body">
+        <h5 class="card-title text-primary">#{{ incident.incidentid }}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">{{ incident.date }}</h6>
+        <p class="card-text text-truncate">{{ incident.narrative }}</p>
+        <p class="small text-secondary mb-0"><strong>Address:</strong> {{ incident.address }}</p>
+    </div>
+    <div class="card-footer bg-transparent border-0 pb-3">
+        <a href="{{ url_for('incident_detail', incidentid=incident.incidentid) }}"
+            class="btn btn-outline-primary btn-sm w-100">View Details</a>
+    </div>
+</div>
+{% endmacro %}

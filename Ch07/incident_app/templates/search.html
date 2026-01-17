@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% from "macros.html" import incident_card %}
+
+{% block content %}
+<div class="row mb-5">
+    <div class="col-md-8 mx-auto text-center">
+        <h1 class="display-5 mb-4">Search Incidents</h1>
+        <form action="/search" method="GET" class="d-flex shadow-sm rounded">
+            <input class="form-control form-control-lg border-end-0 rounded-start" type="search" name="q"
+                value="{{ query }}" placeholder="Keyword search across all fields..." aria-label="Search">
+            <button class="btn btn-primary btn-lg rounded-end px-4" type="submit">Search</button>
+        </form>
+    </div>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    {% if results %}
+    {% for incident in results %}
+    <div class="col">
+        {{ incident_card(incident) }}
+    </div>
+    {% endfor %}
+    {% elif query %}
+    <div class="col-12 text-center">
+        <p class="text-muted">No results found for "{{ query }}".</p>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

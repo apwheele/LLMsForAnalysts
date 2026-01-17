@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block content %}
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/search">Search</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Incident #{{ incident.incidentid }}</li>
+    </ol>
+</nav>
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card p-4 h-100">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="mb-0 text-primary">Incident Details</h2>
+                <span class="badge bg-secondary fs-6">{{ incident.date }}</span>
+            </div>
+
+            <div class="mb-4">
+                <h5 class="fw-bold"><i class="bi bi-geo-alt"></i> Address</h5>
+                <p class="fs-5">{{ incident.address }}</p>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <h6 class="fw-bold">Firearm Type</h6>
+                    <p>{{ incident.firearmtype or 'N/A' }}</p>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="fw-bold">Offenders</h6>
+                    <p>{{ incident.offenders or 'None listed' }}</p>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="fw-bold">Victims</h6>
+                    <p>{{ incident.victims or 'None listed' }}</p>
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <h5 class="fw-bold">Narrative</h5>
+                <div class="p-3 bg-light rounded border">
+                    {{ incident.narrative }}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card p-4">
+            <h4 class="mb-3">Associated Images</h4>
+            {% if incident.images %}
+            <div class="row g-2">
+                {% for img_path in incident.images %}
+                <div class="col-6">
+                    <a href="/{{ img_path }}" target="_blank">
+                        <img src="/{{ img_path }}" class="img-fluid rounded shadow-sm border" alt="Incident Image">
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+            {% else %}
+            <p class="text-muted italic">No images uploaded for this incident.</p>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

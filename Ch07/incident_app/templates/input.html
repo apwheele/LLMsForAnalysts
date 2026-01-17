@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-10">
+        <div class="card p-4 shadow-sm">
+            <h2 class="mb-4">Log New Incident</h2>
+            <form action="/" method="POST" enctype="multipart/form-data">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label for="incidentid" class="form-label">Incident ID</label>
+                        <input type="text" class="form-control" id="incidentid" name="incidentid" required
+                            placeholder="e.g. INC-2024-001">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="date" class="form-label">Date</label>
+                        <input type="date" class="form-control" id="date" name="date" required>
+                    </div>
+                    <div class="col-12">
+                        <label for="address" class="form-label">Address of Incident</label>
+                        <input type="text" class="form-control" id="address" name="address" required
+                            placeholder="123 Main St, Anytown">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="firearmtype" class="form-label">Firearm Type</label>
+                        <input type="text" class="form-control" id="firearmtype" name="firearmtype"
+                            placeholder="e.g. Handgun">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="offenders" class="form-label">Offenders</label>
+                        <input type="text" class="form-control" id="offenders" name="offenders"
+                            placeholder="Comma separated list">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="victims" class="form-label">Victims</label>
+                        <input type="text" class="form-control" id="victims" name="victims"
+                            placeholder="Comma separated list">
+                    </div>
+                    <div class="col-12">
+                        <label for="narrative" class="form-label">Narrative</label>
+                        <textarea class="form-control" id="narrative" name="narrative" rows="5" required
+                            placeholder="Describe the incident details..."></textarea>
+                    </div>
+                    <div class="col-12">
+                        <label for="images" class="form-label">Upload Images</label>
+                        <input type="file" class="form-control" id="images" name="images" multiple accept="image/*">
+                        <div class="form-text">You can select multiple images at once.</div>
+                    </div>
+                    <div class="col-12 mt-4 text-end">
+                        <button type="reset" class="btn btn-secondary me-2">Clear Form</button>
+                        <button type="submit" class="btn btn-primary px-5">Submit Incident</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
