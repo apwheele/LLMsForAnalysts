@@ -65,9 +65,12 @@ The file `crime_mcp.py` is the mcp server script I used in the book with the Cla
 
 ### Chapter 7
 
-The MCP server is a custom one I wrote (with the help of Claude Code) using the [gemimg python library](https://github.com/minimaxir/gemimg), which is a wrapper for Google gemimi image generation models.
+The MCP server is a custom one I wrote (with the help of Claude Code) using the [gemimg python library](https://github.com/minimaxir/gemimg), which is a wrapper for Google Gemini image generation models.
 
 `Fig3_KDE_Surveys.png` is from a journal article of mine, [*Mapping Attitudes Towards the Police at Micro Places* (Wheeler et al., 2020)](https://link.springer.com/article/10.1007/s10940-019-09435-8). It is an (anonymized) kernel density map of surveys at different locations.
 
+The sub folder `incident_app` is a Flask app I had Google Antigravity create as an example in the chapter.
+
+This folder also contains `Prompts.txt` with several examples of the longer prompts I wrote in the chapter.
 
 
