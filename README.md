@@ -2,7 +2,7 @@
 
 These are additional materials for my book, *Large Language Models for Mortals: A Practical Guide for Analysts*. Available to purchase in epub or paperback version [from my store](https://crimede-coder.com/store).
 
-cover image here
+![](CoverPage_Print.png)
 
 Any feedback on the book, feel free to leave here on Github, or [message me directly](https://crimede-coder.com/contact).
 
