@@ -1,0 +1,52 @@
+Prompt to get the pirate flag image
+
+Using the gemimg tool to make a pirate flag with a hot spot of crime map on the flag (isocontours using varying shades of purple see Fig3_KDE_Surveys.png for example blobby hotspot type shape). Make it more cartoonish. Make the flag background black and the background a grey sky, include a pole that the flag is attached to. Make the flag take up the majority of the image.
+
+--------------
+
+Prompt for Antigravity
+
+I want to make a python flask application for a crime analyst to create custom notes on cases of interest, and then have a search capability to identify similar cases. The flask application should be backed by a DuckDB database, and have an incident table that includes:
+
+ - incidentid varchar
+ - date
+ - address of incident
+ - firearmtype (can be null)
+ - list of offenders (can be null)
+ - list of victims (can be null)
+ - narrative
+
+Then a second table to match the image locations to incidentid. So just (no nulls).
+
+ - incidentid
+ - image path
+
+It should also have the ability to upload images and link them to an incident in the same input incident form (which should be a tab in the flask application). It should just save the images in a subfolder using uuid's.
+
+The flask app should have two pages, an input page, a search page, and a specific incident page for a particular incident. Make the html code use a bootstrap theme. It should have a base.html, and extend that to each of the pages, and a macro on how for format the search results as a card.
+
+The input page should be self-explanatory -- it has the input fields in the incident table.
+
+The search page, should just use keyword searching across *all* of the fields for now. Have it return all records that contain the keyword. When it returns results, they should be populated using cards. When you click a card, it opens up the specific incident page (make the names shorter).
+
+I use conda, make sure to include requirements.txt and a README for the repo.
+
+--------------------
+
+Prompt to fix shell session
+
+So you are asking to run python in a different environment than I want, create a shell script to export conda and conda activate inc_app, then do `flask run`. Also create a GEMINI.md file, and put instructions to use that shell script to start the flask app
+
+Here is an example of setting up the conda env in my current .bashrc
+
+```
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/apwheele/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/apwheele/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/apwheele/miniconda3/bin:$PATH"
+    fi
+fi
+```

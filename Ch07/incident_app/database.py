@@ -4,6 +4,9 @@ import os
 DB_PATH = 'incidents.db'
 
 def get_db_connection():
+    """
+    Returns a connection to the DuckDB database.
+    """
     return duckdb.connect(DB_PATH)
 
 def init_db():

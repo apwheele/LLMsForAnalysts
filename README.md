@@ -63,3 +63,11 @@ I then used the `prep_dallas_crime.py` script to slightly modify that file (to i
 
 The file `crime_mcp.py` is the mcp server script I used in the book with the Claude Desktop tool. You can see my conversation at <https://claude.ai/share/6c14cb84-cdbe-475e-91cd-acf4240f3a60> (unfortunately that does not show the artifacts).
 
+### Chapter 7
+
+The MCP server is a custom one I wrote (with the help of Claude Code) using the [gemimg python library](https://github.com/minimaxir/gemimg), which is a wrapper for Google gemimi image generation models.
+
+`Fig3_KDE_Surveys.png` is from a journal article of mine, [*Mapping Attitudes Towards the Police at Micro Places* (Wheeler et al., 2020)](https://link.springer.com/article/10.1007/s10940-019-09435-8). It is an (anonymized) kernel density map of surveys at different locations.
+
+
+
