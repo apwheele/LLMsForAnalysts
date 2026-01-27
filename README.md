@@ -10,6 +10,129 @@ Andy Wheeler
 [Crime De-Coder LLC](https://crimede-coder.com/)
 ![](/crimepy/CrimeDeCoder_Logo_Small.PNG)
 
+## Table of Contents
+
+```
+Large Language Models for Mortals: A Practical Guide for Analysts with Python
+by Andrew Wheeler
+
+TABLE OF CONTENTS
+
+Preface
+    Are LLMs worth all the hype?
+    Is this book more AI Slop?
+    Who this book is for
+    Why write this book?
+    What this book covers
+    What this book is not
+    My background
+    Materials for the book
+    Feedback on the book
+    Thank you
+1 Basics of Large Language Models
+    1.1 What is a language model?
+    1.2 A simple language model in PyTorch
+    1.3 Defining the neural network
+    1.4 Training the model
+    1.5 Testing the model
+    1.6 Recapping what we just built
+2 Running Local Models from Hugging Face
+    2.1 Installing required libraries
+    2.2 Downloading and using Hugging Face models
+    2.3 Generating embeddings with sentence transformers
+    2.4 Named entity recognition with GLiNER
+    2.5 Text Generation
+    2.6 Practical limitations of local models
+3 Calling External APIs
+    3.1 GUI applications vs API access
+    3.2 Major API providers
+    3.3 Calling the OpenAI API
+    3.4 Controlling the Output via Temperature
+    3.5 Reasoning
+    3.6 Multi-turn conversations
+    3.7 Understanding the internals of responses
+    3.8 Embeddings
+    3.9 Inputting different file types
+    3.10 Different providers, same API
+    3.11 Calling the Anthropic API
+    3.12 Using extended thinking with Claude
+    3.13 Inputting Documents and Citations
+    3.14 Calling the Google Gemini API
+    3.15 Long Context with Gemini
+    3.16 Grounding in Google Maps
+    3.17 Audio Diarization
+    3.18 Video Understanding
+    3.19 Calling the AWS Bedrock API
+    3.20 Calculating costs
+4 Structured Output Generation
+    4.1 Prompt Engineering
+    4.2 OpenAI with JSON parsing
+    4.3 Assistant Messages and Stop Sequences
+    4.4 Ensuring Schema Matching Using Pydantic
+    4.5 Batch Processing For Structured Data Extraction using OpenAI
+    4.6 Anthropic Batch API
+    4.7 Google Gemini Batch
+    4.8 AWS Bedrock Batch Inference
+    4.9 Testing
+    4.10 Confidence in Classification using LogProbs
+    4.11 Alternative inputs and outputs using XML and YAML
+    4.12 Structured Workflows with Structured Outputs
+5 Retrieval-Augmented Generation (RAG)
+    5.1 Understanding embeddings
+    5.2 Generating Embeddings using OpenAI
+    5.3 Example Calculating Cosine similarity and L2 distance
+    5.4 Building a simple RAG system
+    5.5 Re-ranking for improved results
+    5.6 Semantic vs Keyword Search
+    5.7 In-memory vector stores
+    5.8 Persistent vector databases
+    5.9 Chunking text from PDFs
+    5.10 Semantic Chunking
+    5.11 OpenAI Vector Store
+    5.12 AWS S3 Vectors
+    5.13 Gemini and BigQuery SQL with Vectors
+    5.14 Evaluating retrieval quality
+    5.15 Do you need RAG at all?
+6 Tool Calling, Model Context Protocol (MCP), and Agents
+    6.1 Understanding tool calling
+    6.2 Tool calling with OpenAI
+    6.3 Multiple tools and complex workflows
+    6.4 Tool calling with Gemini
+    6.5 Returning images from tools
+    6.6 Using the Google Maps tool
+    6.7 Tool calling with Anthropic
+    6.8 Error handling and model retry
+    6.9 Tool Calling with AWS Bedrock
+    6.10 Introduction to Model Context Protocol (MCP)
+    6.11 Connecting Claude Desktop to MCP servers
+    6.12 Examples of Using the Crime Analysis Server in Claude Desktop
+    6.13 What are Agents anyway?
+    6.14 Using Multiple Tools with the OpenAI Agents SDK
+    6.15 Composing and Sequencing Agents with the Google Agents SDK
+    6.16 MCP and file searching using the Claude Agents SDK
+    6.17 LLM as a Judge
+7 Coding Tools and AI-Assisted Development
+    7.1 Keeping it real with vibe coding
+    7.2 VS Code and GitHub Install
+    7.3 GitHub Copilot
+    7.4 Claude Code Setup
+    7.5 Configuring API access
+    7.6 Using Claude Code to Edit Files
+    7.7 Project context with CLAUDE.md
+    7.8 Using an MCP Server
+    7.9 Custom Commands and Skills
+    7.10 Session Management
+    7.11 Hooks for Testing
+    7.12 Claude Headless Mode
+    7.13 Google Antigravity
+    7.14 Best practices for AI-assisted coding
+8 Where to next?
+    8.1 Staying current
+    8.2 What to learn next?
+    8.3 Forecasting the near future of foundation models
+    8.4 Final thoughts
+```
+
 ## Environment
 
 I used conda to create the python environment to compile the book. To create the environment to compile the book, it is something like this:
