@@ -1,6 +1,6 @@
 # Large Language Models for Mortals: A Practical Guide for Analysts with Python
 
-These are additional materials for my book, *Large Language Models for Mortals: A Practical Guide for Analysts with Python*. Available soon to purchase in epub or paperback version [from my store](https://crimede-coder.com/store).
+These are additional materials for my book, *Large Language Models for Mortals: A Practical Guide for Analysts with Python*. ISBN 979-8-9903770-7-3 (ebook), ISBN 979-8-9903770-6-6 (paperback). Available soon to purchase in epub or paperback version [from my store](https://crimede-coder.com/store).
 
 ![](CoverPage_Print.png)
 
@@ -10,7 +10,13 @@ Andy Wheeler
 [Crime De-Coder LLC](https://crimede-coder.com/)
 ![](/crimepy/CrimeDeCoder_Logo_Small.PNG)
 
-## Table of Contents
+## Description
+
+Large language models for mortals is a practical introduction to using foundation model APIs with python. Major components include the basics of understanding how to call and the response objects for OpenAI, Anthropic, Google, and AWS Bedrock models. It also discusses specific components of API libraries, like structured outputs, batch processing, embeddings and RAG systems, tool calling, agents, and model-context-protocol servers. It also has a chapter illustrating different coding LLM tools (GitHub Copilot, Claude Code, and Google's Antigravity).
+
+The intended audience are traditional data scientists looking for practical examples of using foundation model APIs, scientists looking to use these tools for their own research, or analysts looking to use the tools to help automate analyses of large sets of textual data.
+
+## Table of Contents 
 
 ```
 Large Language Models for Mortals: A Practical Guide for Analysts with Python
@@ -132,6 +138,10 @@ Preface
     8.3 Forecasting the near future of foundation models
     8.4 Final thoughts
 ```
+
+## Preview
+
+See the pdf file `llms_mortals_preview.pdf` for a preview of the first 60+ pages in the book.
 
 ## Environment
 
