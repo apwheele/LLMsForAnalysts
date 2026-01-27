@@ -1,6 +1,6 @@
-# Large Language Models for Mortals: A Practical Guide for Analysts
+# Large Language Models for Mortals: A Practical Guide for Analysts with Python
 
-These are additional materials for my book, *Large Language Models for Mortals: A Practical Guide for Analysts*. Available to purchase in epub or paperback version [from my store](https://crimede-coder.com/store).
+These are additional materials for my book, *Large Language Models for Mortals: A Practical Guide for Analysts with Python*. Available to purchase in epub or paperback version [from my store](https://crimede-coder.com/store).
 
 ![](CoverPage_Print.png)
 
