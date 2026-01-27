@@ -12,13 +12,15 @@ Andy Wheeler
 
 ## Environment
 
-I used conda to create the python environment to run the code. To create the environment, I used:
+I used conda to create the python environment to compile the book. To create the environment to compile the book, it is something like this:
 
-    conda create --name llm_book -c conda-forge python=3.12 gliner sentence-transformers jupyter jupyter-cache anthropic openai boto3 pypdf tiktoken google-genai chromadb docling faiss
+    conda create --name llm_book -c conda-forge python=3.12 gliner sentence-transformers jupyter jupyter-cache anthropic openai boto3 pypdf tiktoken google-genai cohere chromadb docling faiss pypdfium2 llama-index matplotlib mcp pydantic-ai pydantic-graph duckdb google-adk claude-agent-sdk
 
-Some of these are for the book compilate (jupyter and jupyter cache). Then you need to set up appropriate environment variables for the different models.
+Now, this is over the top. If you just want to run the openai examples, you would just install the openai libraries. (No need for pytorch, anthropic, google, etc.) The book is compiled via Quarto/Jupyter as well, so that is just for the book contents (not necessary for the actual examples).
 
-....OpenAI, Anthropic, Google Gemini, Bedrock, Claude Code with Bedrock etc.
+You can see the libraries I am using via the `requirements_freeze.txt`, which was generated via `pip list --format freeze`.
+
+The book itself has instructions for setting up unique environments (for MCP I use `uv` and not `conda` for example, but for Antigravity agents I show how to make a shell script to use conda). Understanding environments is important for the coding agents, so just copying my requirements is probably not helpful.
 
 ## Additional Book Materials
 
