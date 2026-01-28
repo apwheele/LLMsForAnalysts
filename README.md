@@ -168,7 +168,7 @@ These are examples I used as inputs to OpenAI, Google, and Anthropic to show how
  - Audio file, `WebMapAudio11sec.mp3`, first 11 seconds from this Youtube video I made, <https://www.youtube.com/watch?v=mBm6sTR08BI&t=35s>, on describing the cartographic decisions I made around an interactive hotspot map.
  - Audio file, `TrimmedPodcast.mp3`, audio of 95 seconds to 130 seconds from my LEAP podcast with Jason Elder, <https://www.leapodcasts.com/e/atwje-dr-andrew-wheeler-crime-de-coder/>
  - Stata Base Reference Manual (V19), limited to the first 1000 pages, downloaded from <https://www.stata.com/manuals/r.pdf> on 12/13/2025
- - The MP3 video file, `DurhamHotspotClipped.mp4`, is seconds 4:00 to 4:30 of this Youtube video <https://www.youtube.com/watch?v=mBm6sTR08BI> describing a slippy map of Durham hotspots of crime I created
+ - The MP4 video file, `DurhamHotspotClipped.mp4`, is seconds 4:00 to 4:30 of this Youtube video <https://www.youtube.com/watch?v=mBm6sTR08BI> describing a slippy map of Durham hotspots of crime I created
 
 
 ### Chapter 4
@@ -207,5 +207,6 @@ The MCP server is a custom one I wrote (with the help of Claude Code) using the 
 The sub folder `incident_app` is a Flask app I had Google Antigravity create as an example in the chapter.
 
 This folder also contains `Prompts.txt` with several examples of the longer prompts I wrote in the chapter.
+
 
 
