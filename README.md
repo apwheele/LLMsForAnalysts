@@ -1,6 +1,6 @@
 # Large Language Models for Mortals: A Practical Guide for Analysts with Python
 
-These are additional materials for my book, *Large Language Models for Mortals: A Practical Guide for Analysts with Python*. ISBN 979-8-9903770-7-3 (ebook), ISBN 979-8-9903770-6-6 (paperback). Available soon to purchase in epub or paperback version [from my store](https://crimede-coder.com/store).
+These are additional materials for my book, *Large Language Models for Mortals: A Practical Guide for Analysts with Python*. ISBN 979-8-9903770-7-3 (ebook), ISBN 979-8-9903770-6-6 (paperback). Available to purchase in [epub](https://crimede-coder.com/cdcstore/product/large-language-models-for-mortals-a-practical-guide-for-analysts-with-python/) or [paperback version](https://crimede-coder.com/cdcstore/product/large-language-models-for-mortals/) from the Crime De-Coder store.
 
 ![](CoverPage_Print.png)
 
